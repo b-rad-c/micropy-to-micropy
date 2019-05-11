@@ -6,6 +6,12 @@ the pyboard is the only micropython enabled controller that can act in slave mod
 
 pyboard is on v1.10 of micropython, lopy4 is on v1.18.1.r1 firmware
 
+###wiring
+
+    lopy4   ->  pyboard
+    P9      ->  X10
+    P10     ->  X9
+
 ### usage
 After loading the code and doing a soft-reset, run the following examples by opening repl sessions on each.
 
