@@ -4,8 +4,7 @@ In this example I am using a pyboard v1.1 as the slave and a lopy4 from pycom as
 According to this page https://learn.adafruit.com/micropython-hardware-i2c-devices/i2c-slave
 the pyboard is the only micropython enabled controller that can act in slave mode currently.
 
-pyboard is on v1.10 of micropython
-lopy4 is on v1.18.1.r1 firmware
+pyboard is on v1.10 of micropython, lopy4 is on v1.18.1.r1 firmware
 
 ### usage
 After loading the code and doing a soft-reset, run the following examples by opening repl sessions on each.
