@@ -1,4 +1,4 @@
-###Micropy to Micropy
+### Micropy to Micropy
 A simple example of i2c 2-way communication between two micropython enabled microcontrollers.
 In this example I am using a pyboard v1.1 as the slave and a lopy4 from pycom as the master.
 According to this page https://learn.adafruit.com/micropython-hardware-i2c-devices/i2c-slave
@@ -6,7 +6,7 @@ the pyboard is the only micropython enabled controller that can act in slave mod
 
 pyboard is on v1.10 of micropython, lopy4 is on v1.18.1.r1 firmware
 
-###wiring
+### wiring
 
     lopy4   ->  pyboard
     P9      ->  X10
